@@ -1,0 +1,6 @@
+Working Directory
+Staging Area
+Commit History
+git diff
+git log
+git reset --soft HEAD~1

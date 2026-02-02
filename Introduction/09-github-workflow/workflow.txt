@@ -1,0 +1,6 @@
+Fork repository
+Create branch
+Commit changes
+Push to GitHub
+Create Pull Request
+Code Review

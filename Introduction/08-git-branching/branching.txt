@@ -1,0 +1,4 @@
+git branch feature1
+git checkout feature1
+git merge feature1
+git rebase main

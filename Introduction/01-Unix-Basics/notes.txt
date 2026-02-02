@@ -1,0 +1,4 @@
+Unix Philosophy
+Kernel vs Shell
+CLI vs GUI
+Filesystem hierarchy explanation

@@ -1,0 +1,16 @@
+
+path.parse('C:\\path\\dir\\file.txt');
+// Returns:
+// { root: 'C:\\',
+//   dir: 'C:\\path\\dir',
+//   base: 'file.txt',
+//   ext: '.txt',
+//   name: 'file' }
+
+
+┌─────────────────────┬────────────┐
+│          dir        │    base    │
+├──────┬              ├──────┬─────┤
+│ root │              │ name │ ext │
+" C:\      path\dir   \ file  .txt "
+└──────┴──────────────┴──────┴─────┘

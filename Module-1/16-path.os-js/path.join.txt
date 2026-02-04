@@ -1,0 +1,5 @@
+path.join('/foo', 'bar', 'baz/asdf', 'quux', '..');
+// Returns: '/foo/bar/baz/asdf'
+
+path.join('foo', {}, 'bar');
+// Throws 'TypeError: Path must be a string. Received {}'

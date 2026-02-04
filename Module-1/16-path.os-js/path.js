@@ -1,4 +1,4 @@
 const path = require("path");
 
-const filePath = "C:\\Users\\Kartik\\Documents\\file.txt";
+const filePath = "C:/Users/kartikey/OneDrive/Desktop";
 console.log(path.dirname(filePath));

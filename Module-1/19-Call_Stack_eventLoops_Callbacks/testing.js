@@ -1,4 +1,4 @@
-const fs = require("fs");
+import fs from "fs";
 
 fs.readFile("test.txt", "utf-8", function(err, data){
     if(err){

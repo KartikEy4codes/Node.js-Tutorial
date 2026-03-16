@@ -1,8 +1,8 @@
-const express = require("express");
-const app = express();
+import express from "express";
+import logger from "./middleware.js";
+import userRoutes from "./routes.js";
 
-const logger = require("./middleware");
-const userRoutes = require("./routes");
+const app = express();
 
 app.use(express.json());
 app.use(logger);

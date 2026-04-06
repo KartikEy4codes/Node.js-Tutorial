@@ -6,7 +6,7 @@
 // async function run() {
 //   try {
 //     await client.connect();
-//     console.log("✅ Connected to MongoDB");
+//     console.log("Connected to MongoDB");
 
 //     const db = client.db("collegeDB");
 //     const collection = db.collection("students");
@@ -17,9 +17,9 @@
 //       branch: "CSE"
 //     });
 
-//     console.log("✅ Data Inserted");
+//     console.log("Data Inserted");
 //   } catch (err) {
-//     console.error("❌ Error:", err);
+//     console.error(" Error:", err);
 //   } finally {
 //     await client.close();
 //   }
@@ -68,6 +68,10 @@ import mongoose from "mongoose";
 mongoose.connect("mongodb://127.0.0.1:27017/mydb")
   .then(() => console.log("Connected"))
   .catch(err => console.log(err));
+
+
+
+  
 
 
 
